@@ -66,7 +66,7 @@ public class CourseProgramme {
     
     @Override
     public String toString() {
-        return "CourseProgramme{" + "courseName=" + courseName + ", modules=" + modules + ", enrolledStudents=" + enrolledStudents + ", academicStartDate=" + academicStartDate + ", academicEndDate=" + academicEndDate + '}';
+        return "CourseProgramme{" + "courseName=" + courseName + ", modules=" + modules.toString() + ", enrolledStudents=" + enrolledStudents.toString() + ", academicStartDate=" + academicStartDate + ", academicEndDate=" + academicEndDate + '}';
     }
 
     public void setAcademicEndDate(DateTime academicEndDate) {

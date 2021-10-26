@@ -56,7 +56,7 @@ public class Module {
 
     @Override
     public String toString() {
-        return "Module{" + "moduleName=" + moduleName + ", id=" + id + ", students=" + students + ", courses=" + courses + '}';
+        return "Module{" + "moduleName=" + moduleName + ", id=" + id + ", students=" + students.toString() + '}';
     }
     
 }
