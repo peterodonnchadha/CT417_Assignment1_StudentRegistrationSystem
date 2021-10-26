@@ -78,5 +78,10 @@ public class Student {
     public void setId(long id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" + "name=" + name + ", dob=" + dob + ", username=" + username + ", modules=" + modules + ", courses=" + courses + ", age=" + age + ", id=" + id + '}';
+    }
     
 }

@@ -27,6 +27,10 @@ public class CourseProgramme {
         this.academicStartDate = academicStartDate;
         this.academicEndDate = academicEndDate;
     }
+    
+    public String getCourseName() {
+        return courseName;
+    }
 
     public List<Module> getModules() {
         return modules;
@@ -59,9 +63,13 @@ public class CourseProgramme {
     public void setAcademicStartDate(DateTime academicStartDate) {
         this.academicStartDate = academicStartDate;
     }
+    
+    @Override
+    public String toString() {
+        return "CourseProgramme{" + "courseName=" + courseName + ", modules=" + modules + ", enrolledStudents=" + enrolledStudents + ", academicStartDate=" + academicStartDate + ", academicEndDate=" + academicEndDate + '}';
+    }
 
     public void setAcademicEndDate(DateTime academicEndDate) {
         this.academicEndDate = academicEndDate;
     }
-
 }

@@ -53,5 +53,10 @@ public class Module {
     public void setCourses(List<CourseProgramme> courses) {
         this.courses = courses;
     }
+
+    @Override
+    public String toString() {
+        return "Module{" + "moduleName=" + moduleName + ", id=" + id + ", students=" + students + ", courses=" + courses + '}';
+    }
     
 }
