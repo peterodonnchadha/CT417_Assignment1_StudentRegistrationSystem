@@ -1,17 +1,24 @@
 pipeline {
     agent any
+	
+	tools {
+	 gradle 'gradle'
+	}
 
     stages {
-        stage('Build') {
+        stage('Compile Stage') {
             steps {
+			 echo 'Compiling and building the projectt.'
             }
         }
-        stage('Test') {
+        stage('Testing stage') {
             steps {
+			echo 'Testing the project'
             }
         }
-        stage('Deploy') {
+        stage('Deployment Stage') {
             steps {
+			 echo 'Deploying the project'
             }
         }
     }
