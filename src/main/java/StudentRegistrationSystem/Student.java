@@ -6,7 +6,6 @@
 package StudentRegistrationSystem;
 
 import java.util.List;
-import java.util.ArrayList;
 /** Student Name: Peter O Donnchadha
  *  Student id: 18339906**/
 public class Student {

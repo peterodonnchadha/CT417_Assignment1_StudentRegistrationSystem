@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CourseProgrammeTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-11-05T17:55:49" hostname="LAPTOP-U519UIFA" time="0.121">
+  <properties/>
+  <testcase name="testGetEnrolledStudents" classname="CourseProgrammeTest" time="0.014"/>
+  <testcase name="testSetAcademicStartDate" classname="CourseProgrammeTest" time="0.088"/>
+  <testcase name="testSetModules" classname="CourseProgrammeTest" time="0.003"/>
+  <testcase name="testGetAcademicStartDate" classname="CourseProgrammeTest" time="0.002"/>
+  <testcase name="testGetAcademicEndDate" classname="CourseProgrammeTest" time="0.001"/>
+  <testcase name="testSetCourseName" classname="CourseProgrammeTest" time="0.001"/>
+  <testcase name="testSetAcademicEndDate" classname="CourseProgrammeTest" time="0.0"/>
+  <testcase name="testSetEnrolledStudents" classname="CourseProgrammeTest" time="0.002"/>
+  <testcase name="testGetModules" classname="CourseProgrammeTest" time="0.001"/>
+  <system-out><![CDATA[** CourseProgrammeTest: testGetEnrolledStudents
+** CourseProgrammeTest: testSetAcademicStartDate
+** CourseProgrammeTest: testSetModules
+** CourseProgrammeTest: testGetAcademicStartDate
+** CourseProgrammeTest: testGetAcademicEndDate
+** CourseProgrammeTest: testSetCourseName
+** CourseProgrammeTest: testSetAcademicEndDate
+** CourseProgrammeTest: testSetEnrolledStudents
+** CourseProgrammeTest: testGetModules
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

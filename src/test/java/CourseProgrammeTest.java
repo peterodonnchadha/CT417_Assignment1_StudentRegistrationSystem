@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//package StudentRegistrationSystem;
 import StudentRegistrationSystem.CourseProgramme;
 import StudentRegistrationSystem.Student;
 import StudentRegistrationSystem.Module;
@@ -101,7 +100,7 @@ public class CourseProgrammeTest {
     @Test
     public void testSetModules() {
         System.out.println("** CourseProgrammeTest: testSetModules");
-        List<Module> modules = Arrays.asList(new Module("Maths", "MA101", null, null), new Module("Maths", "MA101", null, null), new Module("Maths", "MA101", null, null));;
+        List<Module> modules = Arrays.asList(new Module("Maths", "MA101", null, null), new Module("Maths", "MA101", null, null), new Module("Maths", "MA101", null, null));
         CourseProgramme instance = new CourseProgramme(null, null, null, null, null);
         instance.setModules(modules);
     }

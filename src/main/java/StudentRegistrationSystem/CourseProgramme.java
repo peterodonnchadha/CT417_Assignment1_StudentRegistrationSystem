@@ -5,7 +5,6 @@
  */
 package StudentRegistrationSystem;
 
-import java.util.ArrayList;
 import java.util.List;
 import org.joda.time.DateTime;
 
@@ -16,7 +15,6 @@ public class CourseProgramme {
     private String courseName; // account password
     private List<Module> modules;
     private List<Student> enrolledStudents;
-    //DateTime academicStartDate = new DateTime(2018,9,1,0,0,0);
     DateTime academicStartDate;
     DateTime academicEndDate;
 

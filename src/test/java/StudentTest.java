@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//package StudentRegistrationSystem;
 
 import StudentRegistrationSystem.CourseProgramme;
 import StudentRegistrationSystem.Student;
@@ -105,7 +104,7 @@ public class StudentTest {
     public void testGetAge() {
         System.out.println("** StudentTest: testGetAge");
         Student instance = new Student("Peter O Donnchadha", "20/05/00", "podonnchadha", null, null, 21, 18229906);
-        int expResult = 25;
+        int expResult = 21;
         int result = instance.getAge();
         assertEquals(expResult, result);
     }
