@@ -15,7 +15,7 @@ pipeline {
         stage('Testing stage') {
             steps {
 			echo 'Testing the project'
-		        bat "gradle test --test StudentTest"
+		        bat "gradle test --tests StudentTest"
             }
         }
         stage('Deployment Stage') {
