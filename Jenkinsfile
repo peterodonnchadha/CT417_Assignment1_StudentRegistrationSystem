@@ -9,14 +9,14 @@ pipeline {
         stage('Compile Stage') {
             steps {
 			 echo 'Compiling and building the projectt.'
-		     bat "gradlew compileJava"
+		     bat "gradle compileJava"
 
             }
         }
         stage('Testing stage') {
             steps {
 			echo 'Testing the project'
-		     bat "gradlew test" //--tests StudentTest"
+		     bat "gradle test" //--tests StudentTest"
             }
         }
         stage('Deployment Stage') {
