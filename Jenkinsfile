@@ -13,12 +13,14 @@ pipeline {
 
             }
         }
+		
         stage('Testing stage') {
             steps {
 			echo 'Testing the project'
 		     bat "gradle test" //--tests StudentTest"
             }
         }
+		
         stage('Deployment Stage') {
             steps {
 			 echo 'Deploying the project'
