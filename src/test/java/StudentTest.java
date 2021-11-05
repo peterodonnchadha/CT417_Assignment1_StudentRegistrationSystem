@@ -3,8 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package StudentRegistrationSystem;
+//package StudentRegistrationSystem;
 
+import StudentRegistrationSystem.CourseProgramme;
+import StudentRegistrationSystem.Student;
+import StudentRegistrationSystem.Module;
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
